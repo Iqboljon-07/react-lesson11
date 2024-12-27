@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import user1 from "@/assets/user1.png";
+
 const Users = () => {
   const [data, setData] = useState(null);
 

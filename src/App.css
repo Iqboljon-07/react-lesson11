@@ -10,7 +10,7 @@ body{
 
 max-width: 1540px;
 margin: 0 auto;
-background-color: #f2f2f2;
+
 
 }
 
@@ -71,7 +71,7 @@ margin-top:70px
 .user_data{
   width:80%;
   display: grid;
-  grid-template-columns: repeat(3,300px);
+  grid-template-columns: repeat(3,25%);
   grid-auto-rows: 300px;
   justify-content: space-around;
 
@@ -87,7 +87,7 @@ background-color: rgb(52, 185, 141);
 display: flex;
 flex-direction: column;
 align-items: center;
-gap:10px;
+gap:15px;
 padding: 10px;
 border-radius:10px;
 
@@ -95,9 +95,9 @@ border-radius:10px;
 }
 
 .user_item img{
-width:150px;
-height:150px;
-border-radius: 150px;
+width:50%;
+height:50%;
+border-radius: 100%;
 
 }
 
@@ -250,26 +250,82 @@ td{
 
 .like{
   width: 100%;
-  height: 100vh;
-  background-color: lavenderblush;
+  height: auto;
+ 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-top: 50px;
 }
 
 .like_item{
 
 
 width: 80%;
-height:600px;
-background-color: lightgreen;
+height:auto;
+
+
+display: grid;
+grid-template-columns: repeat(3,250px);
+grid-auto-rows: 300px;
+
+gap:30px;
+justify-content: center;
+justify-content: space-between;
+
 
 }
 
-.like_item h1{
+.like h1:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:10px
+  gap:10px;
+  font-size: 50px;
+
+}
+.like_item2{
+background-color: lightgrey;
+border-radius: 15px;
+padding: 40px;
+display: flex;
+flex-direction: column;
+gap:10px;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.like_item2 img{
+
+width: 150px;
+height: 150px;
+border-radius: 150px;
+
+}
+.like_btns{
+
+width:80%;
+height:auto;
+
+display: flex;
+justify-content: flex-start;
+font-size: 40px;
+
+}
+
+.like_btns{
+
+
+display: flex;
+gap:10px;
+color: grey;
+
+}
+
+.like_btns svg:hover{
+  color:red
 }

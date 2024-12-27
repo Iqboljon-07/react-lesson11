@@ -22,7 +22,7 @@
       "id": "f5bc",
       "img": "https://i.pinimg.com/236x/cb/71/90/cb7190237e3098a376a1807a1dcdb48d.jpg",
       "fruit": "pomidor",
-      "price": "3"
+      "price": "4"
     }
   ],
   "users": [
@@ -103,6 +103,10 @@
     {
       "fruit": "strawberry",
       "img": "https://i.pinimg.com/236x/3f/ae/96/3fae969aa334383686776f112098698a.jpg"
+    },
+    {
+      "fruit": "mandarin",
+      "img": "https://i.pinimg.com/236x/a4/1c/d7/a41cd7b5043b03d2d0cb2c44db97d0a6.jpg"
     }
   ]
 }
